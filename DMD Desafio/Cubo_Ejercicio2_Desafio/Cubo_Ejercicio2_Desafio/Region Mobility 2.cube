@@ -1,0 +1,227 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3b7d79d8-5818-48eb-b671-f3d537ed0913" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Region Mobility 2</ID>
+  <Name>Region Mobility 2</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7240" scrolltop="-2918" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="23622" y="11282" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Mobility" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="8657" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d121000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Mobility" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7240</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2918</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="1014359c-a4d6-49a1-9424-13642fcff1ad">
+      <ID>Mobility</ID>
+      <Name>Mobility</Name>
+      <DimensionID>Mobility</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="17ed5d23-42ad-4718-ab58-858cd9d95f77">
+          <AttributeID>ID Register</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="84626643-1c83-44a8-b5b3-9179bc38f22b">
+          <AttributeID>Country Region Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4094e962-117e-4336-8506-23ec43c14d68">
+          <AttributeID>Country Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="811dcbdd-21bb-4f56-9fee-b9e797342af9">
+          <AttributeID>Sub Region 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae131404-3c2f-4666-add9-c4ea36325fea">
+          <AttributeID>Sub Region 2</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="dff7ce95-dc0e-4d7f-a9e4-c0c85471e15a">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="72e76247-6dbe-4595-b9ea-289a1b40145b">
+      <ID>Movilidad</ID>
+      <Name>Movilidad</Name>
+      <DimensionID>Mobility 1 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="95bfdd95-92c1-4037-8504-f0ef701b52d3">
+          <AttributeID>ID Register</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8bc0f914-236c-48e0-8da0-8ca98ce284db">
+          <AttributeID>Retail And Recreation Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="927bc442-6e64-4942-a37f-5fc2d8da6091">
+          <AttributeID>Grocery And Pharmacy Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dd84ce68-036b-417c-9a15-a7d304ad72ee">
+          <AttributeID>Parks Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="05da6449-1149-46cf-af62-e50c20952b5c">
+          <AttributeID>Transit Stations Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0ebc43b6-b957-4101-a22d-6adc1a25cd70">
+          <AttributeID>Workplaces Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bf3d8f36-1116-4614-94aa-dfb959f027e6">
+          <AttributeID>Residential Percent Change From Baseline</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d9c0acf2-1281-4178-ab77-c10ae11bf9be">
+      <ID>Tiempo</ID>
+      <Name>Tiempo</Name>
+      <DimensionID>Mobility 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="82bde9a0-ea9b-454a-94a3-316fe3f29955">
+          <AttributeID>ID Register</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a261af58-4f9f-4123-87a8-68e9e84bb0ec">
+          <AttributeID>Date Registry</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="252c1d3e-8929-40cc-b870-e3c125649517">
+      <ID>Mobility</ID>
+      <Name>Mobility</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="d16b0738-542a-4932-9e1d-4e32ccce4c7b">
+          <ID>Recuento Mobility</ID>
+          <Name>Recuento Mobility</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="134676f7-dd6c-4426-80d0-e528a9f0575c">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="93d93767-0142-4564-8cdd-ddf3bf004e70">
+              <TableID>dbo_Mobility</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="2d818293-5dea-4e23-896a-5a487b7e11ea">
+          <CubeDimensionID>Mobility</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ec19b76b-4986-4fd9-8979-64d05ef21d93">
+              <AttributeID>ID Register</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e896cbb0-7ff6-402f-a353-69499636927f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bd8176e6-78da-4fcc-b289-278c4baad295">
+                    <TableID>dbo_Mobility</TableID>
+                    <ColumnID>ID_Register</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="03ccf361-8b77-4383-9cc3-0eba91079351">
+          <CubeDimensionID>Movilidad</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6499c2b3-c17b-4b34-b490-15850abe44e1">
+              <AttributeID>ID Register</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="620b1787-8ee8-41cb-9a00-97dff900f04d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6dd33deb-f525-4e06-823c-b5d329d04273">
+                    <TableID>dbo_Mobility</TableID>
+                    <ColumnID>ID_Register</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0cfd6d07-6632-42dd-8dc5-b3ae4df57ea5">
+          <CubeDimensionID>Tiempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="69c3f526-bcc4-4d8d-a6d1-099fdf28d3f5">
+              <AttributeID>ID Register</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3602a797-2f88-43ff-a19a-6e73f39cc99f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="001d4f9c-dba5-4175-950c-9f51d0620d31">
+                    <TableID>dbo_Mobility</TableID>
+                    <ColumnID>ID_Register</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="20900e5c-71a0-40ad-ba65-3610ea134c6d">
+    <DataSourceViewID>Region Mobility 2</DataSourceViewID>
+  </Source>
+</Cube>
